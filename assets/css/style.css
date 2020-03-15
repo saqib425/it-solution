@@ -8,6 +8,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#mainlogo {
+  position: absolute;
+  top:10px;
+ right:10px;
+  z-index: 3;
+  
+}
+
+#mainlogo:hover {
+  top:7px;
+ right:7px;
+ border: 3px inset  #428bca;
+ border-radius: 50%;
+ 
+  
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #000;
@@ -355,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
   position: absolute;
   height: 500px;
-  z-index: 4;
+  z-index: 2;
   width: 100%;
 }
 
@@ -491,6 +507,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.8s;
   border: 0;
   background: #428bca;
+  z-index: 999;
 }
 
 #hero .btn-get-started:hover {
@@ -615,6 +632,7 @@ section {
   margin-left: 95px;
   line-height: 24px;
   font-size: 14px;
+
 }
 
 .about .video-box {
@@ -876,6 +894,7 @@ about us three cards-icons styling starting frrom here
 .services .description {
   line-height: 24px;
   font-size: 14px;
+  z-index: 3;
 }
 
 /*--------------------------------------------------------------
@@ -1378,3 +1397,44 @@ about us three cards-icons styling starting frrom here
 #footer .credits a {
   color: #9eccf4;
 }
+
+#aboutus_mid {
+  
+  height: 400px;
+   background-image: url(../../assets/img/pen.jpg);
+   padding-top: 100px;
+   border-radius: 10%;
+   box-shadow: 3px 2px 6px grey;
+}
+
+.johny p {
+  z-index: 5;
+}
+
+.johny::before {
+  content: "";
+  background-color: #40404044;
+  position:absolute;
+  left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: 0;
+    -webkit-transition: 0.2s width;
+    transition: 0.4s width;
+  }
+  
+
+  .johny:hover:before {
+    width: 100%;
+  }
+
+  .johny:hover a {
+    color: white;
+  }
+  
+
+  .johny:hover p {
+    color: white;
+  }
+ 
