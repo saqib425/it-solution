@@ -1416,8 +1416,8 @@ about us three cards-icons styling starting frrom here
   background-color: #40404044;
   position:absolute;
   left: 0;
-    top: 0;
-    bottom: 0;
+    top: -8px;
+    bottom: -5px;
     width: 0%;
     z-index: 0;
     -webkit-transition: 0.2s width;
