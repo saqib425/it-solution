@@ -717,6 +717,19 @@ section {
   }
 }
 
+
+.font-size{
+
+  font-size:70px;
+}
+
+
+.icons-font-sizes{
+  color :#428bca;
+  font-size: 200px;
+  padding-left: 0px;
+
+}
 /*-------------------------------------------------------------
 about us three cards-icons styling starting frrom here
 --------------------------------------------------------------*/
